@@ -10,6 +10,9 @@ export const metadata = {
     icon: siteConfig.logo,
     apple: siteConfig.logo,
   },
+  verification: {
+    google: "B97yLNq8Yue8BmeFx482fZiktvvNRHpmIxPZcO1SgGk",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -23,3 +26,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
